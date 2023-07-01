@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./css/output.css">
+  </head>
+  <body class="">
+    <section class="">
+      <div class="container">
+        <div class="row sticky-top bg-white">
+          <div class="col-3">
+             <!-- LOGO  -->
+             <div class="d-flex justify-content-between align-items-center mb-3 py-3 px-2">
+              <i class="bi bi-list fs-3"></i>
+              <div class="d-flex justify-content-center align-items-center">
+                <img src="./public/image/falcon.png" height="35px" alt="" class="px-3">
+                <h1 class="fs-3 fw-bolder mb-0">Falcon</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+              <!-- NAV  -->
+              <div class="d-flex justify-content-between align-items-center p-3">
+                <div class="input-group bg-white w-25 rounded my-2 d-flex justify-content-center align-items-center">
+                  <label for="search"><i class="bi bi-search ps-3 pe-1 fs-6"></i></label>
+                  <input type="search" class="w-75 border-0 user-select-none c-search" placeholder="Search...">
+                </div>
+
+                <div>
+                  <i class="bi bi-moon-fill p-2"></i>
+                  <i class="bi bi-cart-check-fill p-2"></i>
+                  <i class="bi bi-bell-fill p-2"></i>
+                  <i class="bi bi-grid-3x3-gap-fill p-2"></i>
+                  <img src="./public/image/falcon.png" class="rounder- p-1" alt="" width="30px" height="30px">
+                </div>
+
+              </div>
+          </div>
+        </div>     
+        <div class="row">
+          <div class="col-3">
+            <div class="vh-100 py-3 px-2 position-fixed overflow-y-scroll">
+             
+              <!-- FIRST  -->
+              <div class="accordion w-100" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header d-flex justify-content-start align-items-center">
+                    <i class="bi bi-speedometer2 fs-6 p-1"></i>
+                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Dashboard
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Default
+                    </div>
+                    <div class="accordion-body">
+                      Analytics
+                    </div>
+                    <div class="accordion-body">
+                      CRM
+                    </div>
+                    <div class="accordion-body">
+                      E commerce
+                    </div>
+                    <div class="accordion-body">
+                      LMS <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                    </div>
+                    <div class="accordion-body">
+                      Management
+                    </div>
+                    <div class="accordion-body">
+                      SaaS
+                    </div>
+                    <div class="accordion-body">
+                      Support desk <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                    </div>
+                  </div>
+                </div>
+            
+              
+              </div>
+              <!-- APP  -->
+              <div class="d-flex justify-content-between align-items-center align-content-center mb-3 w-100">
+                <h6 class="mb-0 mt-2 w-25">App</h6>
+                <span class="align-self-start w-75">______________</span>
+              </div>
+              <!-- SECOND  -->
+             <div class="d-flex justify-content-start align-items-center align-content-center mb-3">
+              <i class="bi bi-calendar-week-fill px-1"></i>
+              <h6 class="mb-0">Calendar</h6>
+             </div>
+               <!-- THIRD  -->
+               <div class="d-flex justify-content-start align-items-center align-content-center mb-3">
+                <i class="bi bi-wechat px-1"></i>
+                <h6 class="mb-0">Chat</h6>
+               </div>
+               <!-- FOURTH -->
+               <div class="accordion w-100 mb-3" id="accordionExample4">
+                <div class="accordion-item">
+                  <h2 class="accordion-header d-flex justify-content-start align-items-center">
+                    <i class="bi bi-envelope-open-fill fs-6 p-1"></i>
+                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      Email
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+                    <div class="accordion-body">
+                      Default
+                    </div>
+                    <div class="accordion-body">
+                      Analytics
+                    </div>
+                    <div class="accordion-body">
+                      CRM
+                    </div>
+                    <div class="accordion-body">
+                      E commerce
+                    </div>
+                    <div class="accordion-body">
+                      LMS <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                    </div>
+                    <div class="accordion-body">
+                      Management
+                    </div>
+                    <div class="accordion-body">
+                      SaaS
+                    </div>
+                    <div class="accordion-body">
+                      Support desk <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                    </div>
+                  </div>
+                </div>
+            
+              
+              </div>
+                <!-- FIVE -->
+                <div class="accordion w-100 mb-3" id="accordionExample5">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header d-flex justify-content-start align-items-center">
+                      <i class="bi bi-calendar-event-fill fs-6 p-1"></i>
+                      <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        Events
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample5">
+                      <div class="accordion-body">
+                        Default
+                      </div>
+                      <div class="accordion-body">
+                        Analytics
+                      </div>
+                      <div class="accordion-body">
+                        CRM
+                      </div>
+                      <div class="accordion-body">
+                        E commerce
+                      </div>
+                      <div class="accordion-body">
+                        LMS <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                      </div>
+                      <div class="accordion-body">
+                        Management
+                      </div>
+                      <div class="accordion-body">
+                        SaaS
+                      </div>
+                      <div class="accordion-body">
+                        Support desk <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                      </div>
+                    </div>
+                  </div>
+              
+                
+                </div>
+                  <!-- SIX -->
+               <div class="accordion w-100 mb-3" id="accordionExample6">
+                <div class="accordion-item">
+                  <h2 class="accordion-header d-flex justify-content-start align-items-center">
+                    <i class="bi bi-cart-check-fill fs-6 p-1"></i>
+                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                      E Commerce
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample6">
+                    <div class="accordion-body">
+                      Default
+                    </div>
+                    <div class="accordion-body">
+                      Analytics
+                    </div>
+                    <div class="accordion-body">
+                      CRM
+                    </div>
+                    <div class="accordion-body">
+                      E commerce
+                    </div>
+                    <div class="accordion-body">
+                      LMS <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                    </div>
+                    <div class="accordion-body">
+                      Management
+                    </div>
+                    <div class="accordion-body">
+                      SaaS
+                    </div>
+                    <div class="accordion-body">
+                      Support desk <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                    </div>
+                  </div>
+                </div>
+            
+              
+              </div>
+                <!-- SEVEN -->
+                <div class="accordion w-100 mb-3" id="accordionExample7">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header d-flex justify-content-start align-items-center">
+                      <i class="bi bi-mortarboard-fill fs-6 p-1"></i>
+                      <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                        E Learning
+                      </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample7">
+                      <div class="accordion-body">
+                        Default
+                      </div>
+                      <div class="accordion-body">
+                        Analytics
+                      </div>
+                      <div class="accordion-body">
+                        CRM
+                      </div>
+                      <div class="accordion-body">
+                        E commerce
+                      </div>
+                      <div class="accordion-body">
+                        LMS <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                      </div>
+                      <div class="accordion-body">
+                        Management
+                      </div>
+                      <div class="accordion-body">
+                        SaaS
+                      </div>
+                      <div class="accordion-body">
+                        Support desk <small class="bg-success bg-opacity-25 text-success-emphasis m-1 p-1 fs-6 rounded">New</small>
+                      </div>
+                    </div>
+                  </div>
+              
+                
+                </div>
+               
+
+
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="py-3 px-2">
+              
+              <!-- CARD  -->
+              <div class="row custom-card">
+                <div class="col-6 mb-3">
+                  <div class="card rounded p-3 shadow">
+                    <small>
+                      Weekily Sales<i class="bi bi-question-circle"></i>
+                    </small>
+                    <div class="d-flex justify-content-between align-items-end">
+                    <div>
+                      <h1>$47K</h1>
+                      <button class="btn btn-success rounded">+3.5%</button>
+                    </div>
+                    <img src="./public/image/download.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card rounded p-3 shadow">
+                    <small>
+                      Total Order 
+                    </small>
+                    <div class="d-flex justify-content-between align-items-end">
+                    <div>
+                      <h1>58.4K</h1>
+                      <button class="btn btn-light rounded"> +13.6%</button>
+                    </div>
+                    <img src="./public/image/download (1).png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card rounded p-3 shadow">
+                    <small>
+                      Market Share
+                    </small>
+                    <div class="d-flex justify-content-between align-items-end">
+                    <div class="custom-list">
+                     <ul>
+                      <li class="custom-list-li">Samsung</li>
+                      <li class="custom-list-li">Huawei</li>
+                      <li class="custom-list-li">Apple</li>
+                     </ul>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>33%</li>
+                        <li>29%</li>
+                        <li>20%</li>
+                       </ul>
+                    </div>
+                    <img src="./public/image/graphic-chart.png" alt="" width="136" height="61px" class="img-fluid object-fit-cover">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card rounded p-3 shadow">
+                    <div class="d-flex justify-content-between">
+                      <small>
+                        Weather
+                      </small>
+                      <i class="bi bi-three-dots"></i>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-end">
+                      <img src="./public/image/weather-icon.png" alt="" width="60px" height="30px" class="img-fluid object-fit-cover">
+                    <div>
+                      <p class="mb-3">New York City</p>
+                      <small>Sunny</small>
+                      <small>Precipitation: 50%</small>
+                      
+                    </div>
+                    <div>
+                      <h1>31'</h1>
+                      <small>32'/25/</small>
+                    </div>
+                    </div>
+                  </div>
+                </div>   
+              </div>
+              <div class="row custm-card-two">
+                 <!-- graphic-chart -->
+                 <div class="col-6 mb-3">
+                  <div class="card rounded shadow">
+                      <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="form-label">
+                            Running Projects
+                          </p>
+                          <div>
+                            <select name="" id="" class="form-select">
+                              <option value="1">Working Time</option>
+                              <option value="2">Estamate Time</option>
+                              <option value="3">Billable Time</option>
+
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body p-0">
+                        <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                          <div class="d-flex justify-content-around align-items-center">
+                            <div class="fw-bold rounded-circle bg-primary-subtle text-primary p-1 text-center" style="width: 30px;height: 30px;"> F </div>
+                            <p class="mb-0 ms-1">Falcon</p><small class="p-1 rounded bg-primary-subtle text-primary ms-1">35%</small>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="mb-0">12:50:00</small>
+                            <div class="progress" style="width: 50px;margin-left:5px ;">
+                              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                          <div class="d-flex justify-content-around align-items-center">
+                            <div class="fw-bold rounded-circle bg-success-subtle text-success p-1 text-center" style="width: 30px;height: 30px;"> R </div>
+                            <p class="mb-0 ms-1">Reign</p><small class="p-1 rounded bg-primary-subtle text-primary ms-1">70%</small>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="mb-0">25:20:00</small>
+                            <div class="progress" style="width: 50px;margin-left:5px ;">
+                              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                          <div class="d-flex justify-content-around align-items-center">
+                            <div class="fw-bold rounded-circle bg-success-subtle text-info p-1 text-center" style="width: 30px;height: 30px;"> B </div>
+                            <p class="mb-0 ms-1">Boots4</p><small class="p-1 rounded bg-primary-subtle text-primary ms-1">90%</small>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="mb-0">58:20:00</small>
+                            <div class="progress" style="width: 50px;margin-left:5px ;">
+                              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                          <div class="d-flex justify-content-around align-items-center">
+                            <div class="fw-bold rounded-circle bg-secondary-subtle text-secondary p-1 text-center" style="width: 30px;height: 30px;"> R </div>
+                            <p class="mb-0 ms-1">Raven</p><small class="p-1 rounded bg-primary-subtle text-primary ms-1">40%</small>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="mb-0">12:50:00</small>
+                            <div class="progress" style="width: 50px;margin-left:5px ;">
+                              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-1 border-bottom-0 p-3">
+                          <div class="d-flex justify-content-around align-items-center">
+                            <div class="fw-bold rounded-circle bg-danger-subtle text-danger p-1 text-center" style="width: 30px;height: 30px;"> S </div>
+                            <p class="mb-0 ms-1">Slick</p><small class="p-1 rounded bg-primary-subtle text-primary ms-1">70%</small>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <small class="mb-0">12:50:00</small>
+                            <div class="progress" style="width: 50px;margin-left:5px ;">
+                              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="card-footer text-muted text-center">
+                        Show All Project <i class="bi bi-caret-right-fill"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card rounded p-3 shadow">
+                    
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="form-label">
+                          Running Projects
+                        </p>
+                        <div>
+                          <select name="" id="" class="form-select">
+                            <option value="1">Working Time</option>
+                            <option value="2">Estamate Time</option>
+                            <option value="3">Billable Time</option>
+
+                          </select>
+                        </div>
+                        <i class="bi bi-three-dots"></i>
+                      </div>
+                      <!-- chart   -->
+                      <div style="height: 350px;" class="pt-5 mt-5">
+                        <canvas id="myChart"></canvas>
+                      </div>
+                    
+                    
+
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-7">
+                  <div class="card p-3 shadow">
+                  <p>Using Storage 1775.06 MB of 2 GB</p>
+                  <div class="progress-stacked">
+                    <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                      <div class="progress-bar"></div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                      <div class="progress-bar bg-success"></div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                      <div class="progress-bar bg-danger"></div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Segment four" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                      <div class="progress-bar bg-info"></div>
+                    </div>
+                  </div>
+                  <div class="custom-list">
+                    <ul class="d-inline-flex">
+                     <li class="custom-list-li px-1">Samsung</li>
+                     <li class="custom-list-li px-1">Huawei</li>
+                     <li class="custom-list-li px-1">Apple</li>
+                    </ul>
+                   </div>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <div class="card shadow">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e7008a" fill-opacity="0.2" d="M0,96L40,112C80,128,160,160,240,160C320,160,400,128,480,138.7C560,149,640,203,720,197.3C800,192,880,128,960,96C1040,64,1120,64,1200,90.7C1280,117,1360,171,1400,197.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+                    </svg>
+                    <div class="px-3 pb-3">
+                      <p class="text-danger-emphasis">
+                        Running out of your space?
+                      </p>
+                      <small>
+                        Your storage will be running out soon. Get more space and powerful productivity features.
+                      </small>
+                      <a href="http://" class="text-danger-emphasis">Upgrade Storage<i class="bi bi-caret-right-fill"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-8">
+                  <div class="card rounded shadow">
+                    <div class="card-header">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="form-label">
+                          Best Selling Products
+                        </p>
+                        <p class="form-label">
+                          Revenue ($3333)	
+                        </p>
+                        <p class="form-label">
+                          Revenue (%)
+                        </p>
+                        
+                      </div>
+                    </div>
+                    <div class="card-body p-0">
+                      <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <img src="./public/image/11.png" alt="" width="100px" height="20px" class="img-fluid pe-3">
+                          <div>
+                            <p class="mb-0">Falcon</p>
+                            <small>Landing</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="mb-0">12:50:00</small>
+                          <div class="progress" style="width: 50px;margin-left:5px ;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <img src="./public/image/10.png" alt="" width="100px" height="20px" class="img-fluid pe-3">
+                          <div>
+                            <p class="mb-0">Falcon</p>
+                            <small>Landing</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="mb-0">25:20:00</small>
+                          <div class="progress" style="width: 50px;margin-left:5px ;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <img src="./public/image/12.png" alt="" width="100px" height="20px" class="img-fluid pe-3">
+                          <div>
+                            <p class="mb-0">Falcon</p>
+                            <small>Landing</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="mb-0">58:20:00</small>
+                          <div class="progress" style="width: 50px;margin-left:5px ;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center mb-1 border-bottom p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <img src="./public/image/13.png" alt="" width="100px" height="20px" class="img-fluid pe-3">
+                          <div>
+                            <p class="mb-0">Falcon</p>
+                            <small>Landing</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="mb-0">12:50:00</small>
+                          <div class="progress" style="width: 50px;margin-left:5px ;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center mb-1 border-bottom-0 p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <img src="./public/image/14.png" alt="" width="100px" height="20px" class="img-fluid pe-3">
+                          <div>
+                            <p class="mb-0">Falcon</p>
+                            <small>Landing</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="mb-0">12:50:00</small>
+                          <div class="progress" style="width: 50px;margin-left:5px ;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                     
+                    </div>
+                    <div class="card-footer text-muted d-flex justify-content-between">
+                      <div>
+                        <select name="" id="" class="form-select">
+                          <option value="1">Last 7 days</option>
+                          <option value="2">Estamate Time</option>
+                          <option value="3">Billable Time</option>  
+                        </select>
+                      </div>
+                      <a href="http://" class="btn btn-light">View All</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-4">
+                  <div class="card text-center">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                      2 days ago
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div>
+                    <canvas id="myChartTwo"></canvas>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <script src="./main.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      datasets: [{
+        label: '# of Votes',
+        data: [12, 19, 3, 5, 2, 3],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+<script>
+  const ctxTwo = document.getElementById('myChartTwo');
+
+  new Chart(ctxTwo, {
+    type: 'bar',
+    data: {
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      datasets: [{
+        label: '# of Votes',
+        data: [12, 19, 3, 5, 2, 3],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+$cyan: #EDF2F9;
+$orange : #F69158;
+
+$accordion-bg: none;
+$accordion-border-color:none;
+$accordion-border-width:0px;
+$accordion-button-active-bg: none;
+$accordion-button-active-color: none;
+$accordion-button-focus-border-color: none;
+$accordion-button-focus-box-shadow: none;
+$accordion-button-padding-y:1px;
+$accordion-button-padding-x: 1px;
+
+$accordion-body-padding-y: 1px;
+$accordion-padding-x:                     1.5rem;
+$accordion-body-padding-x: $accordion-padding-x;
+
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
+
+/* Target the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width of the scrollbar */
+}
+
+/* Target the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the scrollbar handle */
+  border-radius: 5px; /* Adjust the border radius to make it rounder */
+}
+
+/* Target the scrollbar track when the handle is being hovered */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Change the color when hovered */
+}
+
+/* Target the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the color of the scrollbar track */
+}
+
+/* Target the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1; /* Set the color of the scrollbar corner */
+}
+
+.custom-card .card{
+  height: 200px;
+}
+
+.custom-card-two .card{
+  height: 400px;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  background-color: var(--random-color);
+}
+
+.c-search:focus-visible{
+outline: none!important;
+}
+
+.c-aside{
+  width: 19rem;
+}
+
+
+
